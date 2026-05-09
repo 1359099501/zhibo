@@ -1,0 +1,14 @@
+serverAddr = "150.158.124.133"
+serverPort = 7000
+#不能删除, 否则连接不上会闪退
+loginFailExit=false
+
+auth.method = "token"
+auth.token = "60d8a83c544e6168db"
+
+[[proxies]]
+name = "fnos"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 5666
+remotePort = 15666
